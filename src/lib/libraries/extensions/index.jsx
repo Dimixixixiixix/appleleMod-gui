@@ -393,18 +393,6 @@ export default [
                 }}
             />
         ),
-        extensionId: 'tw',
-        iconURL: twIcon,
-        description: (
-            <FormattedMessage
-                defaultMessage="Weird new blocks."
-                description="Description of the strange 'TurboWarp Blocks' extension"
-                id="tw.twExtension.description"
-            />
-        ),
-        incompatibleWithScratch: true,
-        tags: ['tw'],
-        featured: true
     },
     {
         name: (
@@ -466,13 +454,13 @@ export const galleryMore = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
         <FormattedMessage
             // eslint-disable-next-line max-len
-            defaultMessage="Learn more about extensions at extensions.turbowarp.org."
+            defaultMessage="More extensions for AppleleMod."
             description="Appears after the extension list from the gallery was loaded successfully"
             id="tw.extensionGallery.more"
         />
@@ -492,7 +480,7 @@ export const galleryError = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://dimixixixiixix.github.io/Applele-extensions-idk-/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
